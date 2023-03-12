@@ -1,13 +1,17 @@
-import './App.css'
+import { PokeForm } from "./components/PokeForm";
+import { Home } from "./pages/Home";
 
 function App() {
+  
 
-
-  return (
-    <div className="App">
-      pokedex
+  const handlerPoke = async () =>{
+    const poke = await getPokemon(2);
+     console.log(poke.name);
+  }
+  return <div className="App">
+    <Home/>
+    
     </div>
-  )
 }
 
-export default App
+export default App;
