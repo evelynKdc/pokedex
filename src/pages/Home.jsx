@@ -5,9 +5,11 @@ import { PokemonData } from '../components/PokemonData';
 
 export const Home = () => {
     const [data, setData] = useState(null);
+
+    
   return (
     <div>
-        <Header/>
+        <Header setData={setData}/>
         <PokeForm setData={setData}/>
         <PokemonData data={data}/>
     </div>
