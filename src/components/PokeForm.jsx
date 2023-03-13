@@ -29,7 +29,10 @@ export const PokeForm = ({ setData }) => {
           placeholder="Ingrese un id o nombre"
           className="bg-yellow-super-light px-6 py-4 rounded-full w-10/12 focus:outline-none focus:shadow-sm"
         />
-        <button type="submit" className="bg-orange-dark rounded-3xl px-6 py-3 text-white hover:bg-orange-hover hover:shadow-md">
+        <button
+          type="submit"
+          className="bg-orange-dark rounded-3xl px-6 py-3 text-white hover:bg-orange-hover hover:shadow-md"
+        >
           Buscar
         </button>
       </form>

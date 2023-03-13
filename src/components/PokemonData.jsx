@@ -11,10 +11,17 @@ export const PokemonData = ({ data }) => {
     setInitialPokemons(dato);
   };
 
-
   useEffect(() => {
     pokemons();
   }, []);
 
-  return <section className="w-full flex justify-center items-center flex-col py-8 md:flex-row md:gap-8 md:flex-wrap">{data ? <PokemonCard item={data} /> : <MapeoPokemons initialPokemons={initialPokemons} />}</section>;
+  return (
+    <section className="w-full flex justify-center items-center flex-col py-8 md:flex-row md:gap-8 md:flex-wrap">
+      {data ? (
+        <PokemonCard item={data} />
+      ) : (
+        <MapeoPokemons initialPokemons={initialPokemons} />
+      )}
+    </section>
+  );
 };
