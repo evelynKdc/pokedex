@@ -8,7 +8,7 @@ function App() {
     const poke = await getPokemon(2);
      console.log(poke.name);
   }
-  return <div className="App font-body">
+  return <div className="App">
     <Home/>
     
     </div>
