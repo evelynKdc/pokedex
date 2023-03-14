@@ -8,7 +8,7 @@
 - Diseño responsivo
 
 ## Versión demo
-💻 soon...
+💻 https://evelynkdc.github.io/pokedex/
 
 
 ## Tecnologias usadas
@@ -29,4 +29,6 @@
 - https://fonts.google.com/specimen/Poppins?query=poppins
 
 ## Autor
-<a href="https://github.com/evelynKdc"><img width="100px"src="https://avatars.githubusercontent.com/u/114323897?s=400&u=2972f83197a3195b07c885f106065c1f913fe656&v=4" alt="avatar del autor"></a>
+<a href="https://github.com/evelynKdc">
+<img width="100px" src="https://avatars.githubusercontent.com/u/114323897?s=400&u=2972f83197a3195b07c885f106065c1f913fe656&v=4">
+</a>
