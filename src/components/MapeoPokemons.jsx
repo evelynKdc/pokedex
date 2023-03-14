@@ -10,7 +10,7 @@ export const MapeoPokemons = ({ initialPokemons }) => {
         ? initialPokemons.map((item) => (
             <PokemonCard key={item.order} item={item} />
           ))
-        : "Loading...."}
+        : "Loading....."}
     </>
   );
 };
