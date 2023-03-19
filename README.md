@@ -26,7 +26,7 @@
 <img width="100%" src="./src//Portadas/Palette.svg" alt="paleta de colores pokedex">
 
 ## Fuente 
-- https://fonts.google.com/specimen/Poppins?query=poppins
+- Poppins - https://fonts.google.com/specimen/Poppins?query=poppins
 
 ## Autor
 <a href="https://github.com/evelynKdc">
