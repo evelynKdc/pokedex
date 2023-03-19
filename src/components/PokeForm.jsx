@@ -10,7 +10,7 @@ export const PokeForm = ({ setData }) => {
 
   const handlerSubmit = async (e) => {
     e.preventDefault();
-    const pokemonResult = await getPokeById(poke);
+    const pokemonResult = await getPokeById(poke.toLowerCase());
     console.log(pokemonResult);
     setData(pokemonResult);
   };
